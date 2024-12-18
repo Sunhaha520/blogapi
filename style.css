@@ -5,7 +5,18 @@ html, body {
     min-height: 100%; 
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, address, cite, img, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, td {
+h1 {
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight:normal;
+	font-style:normal;
+	font-size:120%;
+	line-height:1;
+	text-align:left;
+}
+
+h2, h3, h4, h5, h6, p, blockquote, address, cite, img, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, td {
 	margin:0;
 	padding:0;
 	border:0;
