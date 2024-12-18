@@ -127,7 +127,8 @@ input::-moz-placeholder { color: #767676; }
 .wrapper {
     margin: 0 auto;
     max-width: 90%;
-	width: 620px;
+	width: 780px;
+    margin-top: -20px;
 }
 
 
@@ -249,7 +250,7 @@ input::-moz-placeholder { color: #767676; }
     font-size: 1.5em;
 	font-weight: 700;
 	line-height: 1;
-    margin-top: 80px;
+    margin-top: 30px;
 	text-align: center;
 }
 
@@ -258,6 +259,7 @@ input::-moz-placeholder { color: #767676; }
 	margin: 20px auto 0 auto;
 	max-width: 620px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 
@@ -376,7 +378,7 @@ span.sep { margin: 0 15px; }
 
 .post hr:before { content: "***"; }
 
-.post :first-child { margin-top: 0; }
+.post :first-child { margin-top: -20px; }
 .post :last-child { margin-bottom: 0; }
 
 .content > ol,
