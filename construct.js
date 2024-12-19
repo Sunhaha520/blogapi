@@ -69,3 +69,15 @@ $( document ).ready( function( ) {
 	davis.menu.init();						// Menus
 	davis.intrinsicRatioEmbeds.init();		// Embed resizing
 } );
+
+
+
+
+$(document).ready(() => {
+  let typingElement = $('.typing');
+
+  typingElement.on('click', (e) => {
+    typingElement.removeClass('animate');
+    setTimeout(() => typingElement.addClass('animate'), 1);
+  })
+});
